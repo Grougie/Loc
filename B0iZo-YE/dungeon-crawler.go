@@ -1,4 +1,5 @@
 package main
+import "fmt"
 
 //  --Variables utilitaires décrivant les commandes
 
@@ -26,7 +27,7 @@ func NextMove(room string) uint32 {
 	/*
 	/*                        */
 	currentIndex++
-
+	fmt.Println("currentIndex", currentIndex)
 	//return actions[currentIndex]
 	return MoveUp
 }
